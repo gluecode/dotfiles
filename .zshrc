@@ -159,7 +159,8 @@ source <(fzf --zsh)
 
 eval "$(uv generate-shell-completion zsh)"
 eval "$(zoxide init zsh)"
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/my-theme.omp.json)"
 alias ls="eza --icons"
 alias ll="eza -l --icons"
 alias la="eza -la --icons"
