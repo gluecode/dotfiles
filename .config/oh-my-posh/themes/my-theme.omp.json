@@ -123,7 +123,7 @@
         {
           "foreground": "p:pistachio-green",
           "style": "plain",
-          "template": "\u25b6",
+          "template": "\u27EB",
           "type": "text"
         }
       ],
